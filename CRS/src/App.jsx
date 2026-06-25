@@ -3,6 +3,8 @@ import React from "react";
 const App = () => {
   const features = [
     {
+
+
       icon: "👨‍🎓",
       title: "Students",
       desc: "Create profiles, upload resumes, and apply for jobs from top companies.",
@@ -19,6 +21,7 @@ const App = () => {
     },
   ];
 
+  
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-900 via-indigo-900 to-purple-900 text-white">
       {/* Navbar */}
@@ -45,6 +48,8 @@ const App = () => {
           platform. Discover opportunities, hire talent, and simplify campus
           placements.
         </p>
+
+
 
         <div className="flex flex-col md:flex-row justify-center gap-4">
           <button className="bg-white text-blue-700 px-8 py-4 rounded-xl font-bold hover:scale-105 transition duration-300">
@@ -112,10 +117,15 @@ const App = () => {
           Join thousands of students and recruiters already using our platform.
         </p>
 
+
+
         <button className="bg-yellow-400 text-black px-10 py-4 rounded-xl font-bold hover:scale-105 transition duration-300">
           Get Started
         </button>
       </section>
+
+
+
 
       {/* Footer */}
       <footer className="border-t border-white/10 py-8 text-center text-gray-400">
@@ -124,5 +134,9 @@ const App = () => {
     </div>
   );
 };
+
+
+
+
 
 export default App;
