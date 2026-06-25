@@ -51,6 +51,31 @@ const App = () => {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <div className="flex flex-col md:flex-row justify-center gap-4">
           <button className="bg-white text-blue-700 px-8 py-4 rounded-xl font-bold hover:scale-105 transition duration-300">
             Student Login
