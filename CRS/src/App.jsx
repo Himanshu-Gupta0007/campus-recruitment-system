@@ -1,12 +1,11 @@
 import React from 'react'
-import {useState} from 'react'
+import Navbar from './Componts/Navbar'
 
 const App = () => {
-  const [count , setcount] = useState(0)
   return (
-    <button onClick={() => setcount(count + 1)}>
-      count is {count}
-    </button>
+    <div>
+      <Navbar name={"himanshu"} PH={'45125555'} />
+    </div>
   )
 }
 
