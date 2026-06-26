@@ -57,6 +57,19 @@ const Navbar = () => {
           </li>
         </ul>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
         {/* Buttons */}
         <div className="flex items-center gap-3">
           <button className="border border-white px-5 py-2 rounded-lg hover:bg-white hover:text-blue-700 transition duration-300">
