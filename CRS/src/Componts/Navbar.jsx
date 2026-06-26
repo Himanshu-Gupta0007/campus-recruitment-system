@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Navbar = ({ name , PH }) => {
+const Navbar = () => {
   return (
-    <div>Navbar {[name, PH]} </div>
+    <div>Navbar</div>
   )
 }
 
