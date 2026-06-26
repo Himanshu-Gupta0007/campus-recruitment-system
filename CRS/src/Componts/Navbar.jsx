@@ -28,6 +28,13 @@ const Navbar = () => {
           </div>
         </div>
 
+
+
+
+
+
+
+
         {/* Navigation */}
         <ul className="hidden md:flex items-center gap-8 font-medium">
           <li className="hover:text-yellow-300 cursor-pointer transition duration-300">
