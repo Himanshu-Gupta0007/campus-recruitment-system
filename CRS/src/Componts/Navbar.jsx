@@ -80,6 +80,12 @@ const Navbar = () => {
             Register
           </button>
         </div>
+
+
+
+
+
+        
       </div>
 
 
