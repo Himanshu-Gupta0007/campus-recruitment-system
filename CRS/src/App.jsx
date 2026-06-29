@@ -6,7 +6,7 @@ import Chlidc from './Componts/Childc'
 
 const App = () => {
   const ThemeContext   = createContext()
-  const [theme , setTheme] = useState('light')
+  const [theme , setTheme] = useState('black')
 
   
   return (
