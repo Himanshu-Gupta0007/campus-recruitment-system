@@ -4,6 +4,13 @@ const Childc = ({ theme }) => {
   //const currentTheme = useTheme()
   return (
     <div>Childc {theme} theme</div>
+
+
+
+
+
+
+    
   )
 }
 
