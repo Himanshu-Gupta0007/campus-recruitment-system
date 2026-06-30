@@ -14,6 +14,7 @@ const App = () => {
       <ThemeContext.Provider value={theme}>
         <Chlidc theme={theme} />
       </ThemeContext.Provider>
+      <App />
     </div>
   )
 }
