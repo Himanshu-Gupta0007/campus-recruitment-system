@@ -99,6 +99,17 @@ const Navbar = () => {
             </button>
           </div>
 
+
+
+
+
+
+
+
+
+
+
+
           {/* Mobile hamburger */}
           <button
             className="md:hidden flex flex-col justify-center items-center w-10 h-10 rounded-md hover:bg-white/10 transition-colors duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-white"
