@@ -10,7 +10,7 @@ const Childa = () => {
         textAlign: "center",
       }} 
     
-    >Childa</div>
+    >Childadergdfgdfgergaer</div>
   )
 }
 
