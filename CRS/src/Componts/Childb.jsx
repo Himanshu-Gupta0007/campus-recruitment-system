@@ -13,8 +13,14 @@ const Childb = () => {
     >
       <h2>👦 Child B Component</h2>
 
-      
+
       <p>This is Child B.</p>
+
+
+
+
+
+      
     </div>
   );
 };
