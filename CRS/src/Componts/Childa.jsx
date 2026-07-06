@@ -1,17 +1,22 @@
-import React from 'react'
+import React from "react";
 
 const Childa = () => {
   return (
-    <div  style={{
+    <div
+      style={{
         padding: "20px",
         margin: "20px",
         backgroundColor: "#f4f4f4",
         borderRadius: "10px",
         textAlign: "center",
-      }} 
-    
-    >Childadergdfgdfgergaer</div>
-  )
-}
+        fontSize: "20px",
+        fontWeight: "bold",
+        color: "#333",
+      }}
+    >
+      Child A Component
+    </div>
+  );
+};
 
-export default Childa
+export default Childa;

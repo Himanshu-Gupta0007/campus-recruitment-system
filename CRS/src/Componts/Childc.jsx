@@ -1,16 +1,8 @@
-import Usecontext from 'react'
+import React from 'react'
 
-const Childc = ({ theme }) => {
-  //const currentTheme = useTheme()
+const Childc = () => {
   return (
-    <div>Childc {theme} theme</div>
-
-
-
-
-
-
-    
+    <div>Childc</div>
   )
 }
 
