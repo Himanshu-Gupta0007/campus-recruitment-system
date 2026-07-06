@@ -87,6 +87,15 @@ const Navbar = () => {
             className="flex-1 bg-transparent outline-none text-white placeholder-gray-400"
           />
 
+
+
+
+
+
+
+
+          
+
           <button className="flex items-center justify-center w-11 h-11 rounded-full bg-emerald-500 text-white transition-all duration-300 hover:bg-emerald-600 hover:rotate-12 hover:shadow-lg active:scale-95 disabled:bg-gray-400 disabled:cursor-not-allowed">
             <Send size={20} />
           </button>
