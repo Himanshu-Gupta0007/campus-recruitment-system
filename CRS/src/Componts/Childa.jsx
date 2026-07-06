@@ -11,10 +11,10 @@ const Childa = () => {
         textAlign: "center",
         fontSize: "20px",
         fontWeight: "bold",
-        color: "#333",
+        color: "#783b3b",
       }}
     >
-      Child A Component
+      Child A Component code
     </div>
   );
 };
