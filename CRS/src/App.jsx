@@ -13,6 +13,10 @@ const App = () => {
       
      
 <Navbar />
+
+
+
+
     </div>
   )
 }
