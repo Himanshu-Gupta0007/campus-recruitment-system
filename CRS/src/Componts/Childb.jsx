@@ -10,8 +10,13 @@ const Childb = () => {
         borderRadius: "10px",
         textAlign: "center",
       }}
+
+      
     >
-      <h2>👦 Child B Componenansjwndwuuwdwit</h2>
+      <h2>👦 Child B Component</h2>
+
+
+
 
 
       <p>This is Child B.</p>
