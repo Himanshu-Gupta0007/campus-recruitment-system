@@ -13,7 +13,12 @@ const Childa = () => {
         fontWeight: "bold",
         color: "#783b3b",
       }}
+
+
+
     >
+
+      
       Child A Component code
     </div>
   );
