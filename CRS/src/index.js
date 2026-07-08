@@ -20,6 +20,6 @@ function twosum(nums, target){
     return null;
 }
 
- let ans = twosum([2, 7, 11, 15], 9); // Output: [0, 1]    
+ let ans = twosum([2, 7,45, 11, 15], 9); // Output: [0, 1]    
 
  console.log(ans);
