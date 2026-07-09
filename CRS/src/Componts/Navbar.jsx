@@ -96,9 +96,13 @@ const Navbar = () => {
 
           
 
-          <button className="flex items-center justify-center w-11 h-11 rounded-full bg-emerald-500 text-white transition-all duration-300 hover:bg-emerald-600 hover:rotate-12 hover:shadow-lg active:scale-95 disabled:bg-gray-400 disabled:cursor-not-allowed">
-            <Send size={20} />
-          </button>
+        <button
+onClick={sendMessage}
+disabled={!input.trim() || loading}
+className="flex items-center justify-center w-11 h-11 rounded-full bg-emerald-500 text-white hover:bg-emerald-600 disabled:bg-gray-500"
+>
+<Send size={20}/>
+</button>
         </div>
       </div>
     </div>
