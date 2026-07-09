@@ -82,16 +82,9 @@ const Navbar = () => {
       <div className="p-5 border-t border-gray-700">
         <div className="flex items-center bg-[#2F2F2F] rounded-xl px-4 py-3">
           <input
-            value={input}
-            onChange={(e) => setInput(e.target.value)}
-            onKeyDown={(e) => {
-              if (e.key === "Enter") {
-                sendMessage();
-              }
-            }}
             type="text"
             placeholder="Message AI..."
-            className="flex-1 bg-transparent outline-none"
+            className="flex-1 bg-transparent outline-none text-white placeholder-gray-400"
           />
 
 
@@ -101,13 +94,9 @@ const Navbar = () => {
 
 
 
+          
 
-
-          <button
-            onClick={sendMessage}
-            disabled={!input.trim() || loading}
-            className="flex items-center justify-center w-11 h-11 rounded-full bg-emerald-500 text-white hover:bg-emerald-600 disabled:bg-gray-500"
-          >
+          <button className="flex items-center justify-center w-11 h-11 rounded-full bg-emerald-500 text-white transition-all duration-300 hover:bg-emerald-600 hover:rotate-12 hover:shadow-lg active:scale-95 disabled:bg-gray-400 disabled:cursor-not-allowed">
             <Send size={20} />
           </button>
         </div>
