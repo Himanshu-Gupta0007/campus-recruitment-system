@@ -28,3 +28,31 @@
 
 
 
+// Problem 3: Best Time to Buy and Sell Stock (Easy)
+
+// Ek array prices diya gaya hai jisme prices[i] us din ka stock price hai.
+
+// Tum sirf ek baar buy aur ek baar sell kar sakte ho.
+
+// Maximum profit return karo.
+
+// Agar profit possible nahi hai to 0 return karo.
+
+
+
+function maxProfit(prices) {
+    let minPrice = Infinity;
+    let maxProfit = 0;
+    for (let i = 0; i < prices.length; i++) {
+        if (prices[i] < minPrice) {
+            minPrice = prices[i];
+        } else if (prices[i] - minPrice > maxProfit) {
+            maxProfit = prices[i] - minPrice;
+        }
+    }
+    return maxProfit;
+}   
+
+
+ let ans = maxProfit([7, 1, 5, 3, 6, 4]); // Output: 5
+ console.log(ans);
