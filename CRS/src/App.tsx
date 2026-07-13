@@ -4,6 +4,21 @@ const App = () => {
   const name: string = "Himanshu";
   const age: number = 22;
   const [count , setCount] = useState<string>("0");
+  
+
+  interface User {
+  name: string;
+  age: number;
+  city: string;
+}
+
+const user: User = {
+  name: "Himanshu",
+  age: 22,
+  city: "Delhi",
+};
+
+console.log(user);
 
   return (
     <div>
@@ -12,6 +27,10 @@ const App = () => {
       <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition duration-300 shadow-md hover:shadow-lg" onClick={() => setCount((parseInt(count) + 1).toString())}>+</button>
       <h1 className="text-2xl font-bold">{count}</h1>
       <button className="bg-red-600 hover:bg-red-700 text-white font-semibold px-6 py-3 rounded-lg transition duration-300 shadow-md hover:shadow-lg  " onClick={() => setCount((parseInt(count) - 1).toString())}>-</button>
+
+
+     
+
     </div>
   );
 };
