@@ -21,3 +21,7 @@ let isMarried: boolean = false;
 console.log(city);
 console.log(salary);
 console.log(isMarried);
+
+let numbers: number[] = [1,2,3,4,5];
+
+console.log(numbers);
