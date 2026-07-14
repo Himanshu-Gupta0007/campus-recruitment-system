@@ -40,23 +40,38 @@
 
 
 
-function maxProfit(prices) {
-    let minPrice = Infinity;
+// function maxProfit(prices) {
+//     let minPrice = Infinity;
 
-    let maxProfit = 0;
+//     let maxProfit = 0;
 
 
-    for (let i = 0; i < prices.length; i++) {
-        if (prices[i] < minPrice) {
-            minPrice = prices[i];
-        } else if (prices[i] - minPrice > maxProfit) {
-            maxProfit = prices[i] - minPrice;
-        }
+//     for (let i = 0; i < prices.length; i++) {
+//         if (prices[i] < minPrice) {
+//             minPrice = prices[i];
+//         } else if (prices[i] - minPrice > maxProfit) {
+//             maxProfit = prices[i] - minPrice;
+//         }
         
+//     }
+//     return maxProfit;
+// }   
+
+
+//  let answer = maxProfit([7, 1, 5, 3, 6, 4]); // Output: 5
+//  console.log(answer);
+
+// Reverse an Array
+function reverseArray(arr) {
+    let start = 0;
+    let end = arr.length - 1;
+    while (start < end) {
+        [arr[start], arr[end]] = [arr[end], arr[start]];
+        start++;
+        end--;
     }
-    return maxProfit;
-}   
+    return arr;
+}
 
-
- let answer = maxProfit([7, 1, 5, 3, 6, 4]); // Output: 5
- console.log(answer);
+let numbers = [1, 2, 3, 4, 5];
+console.log(reverseArray(numbers)); // Output: [5, 4, 3, 2, 1]  
