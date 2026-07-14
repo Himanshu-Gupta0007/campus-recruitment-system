@@ -109,6 +109,15 @@ function accessDashboard(role: UserRole) {
 
 accessDashboard(UserRole.Admin);
 
+
+let users: [number, string][] = [
+  [1, "Rahul"],
+  [2, "Aman"],
+  [3, "Himanshu"],
+];
+
+console.log(users);
+
   return (
     <div>
       <h1>{name}</h1>
