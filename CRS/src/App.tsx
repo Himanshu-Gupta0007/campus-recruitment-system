@@ -72,6 +72,43 @@ console.log(StatusCode.Success);    // 200
 console.log(StatusCode.NotFound);   // 404
 console.log(StatusCode.ServerError); // 500
 
+
+
+
+enum Role {
+  Admin = "ADMIN",
+  User = "USER",
+}
+
+function checkRole(role: Role) {
+  if (role === Role.Admin) {
+    console.log("Welcome Admin");
+  } else {
+    console.log("Welcome User");
+  }
+}
+
+checkRole(Role.Admin);
+checkRole(Role.User);
+
+enum UserRole {
+  Admin = "ADMIN",
+  Manager = "MANAGER",
+  Employee = "EMPLOYEE",
+}
+
+function accessDashboard(role: UserRole) {
+  if (role === UserRole.Admin) {
+    console.log("Full Access");
+  } else if (role === UserRole.Manager) {
+    console.log("Manager Access");
+  } else {
+    console.log("Employee Access");
+  }
+}
+
+accessDashboard(UserRole.Admin);
+
   return (
     <div>
       <h1>{name}</h1>
