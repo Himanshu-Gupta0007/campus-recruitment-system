@@ -43,6 +43,11 @@ let numbers: number[] = [10, 20, 30, 40];
 
 console.log(numbers);
 
+
+let fruits: string[] = ["Apple", "Banana", "Mango"];
+
+console.log(fruits);
+
   return (
     <div>
       <h1>{name}</h1>
