@@ -20,6 +20,29 @@ const user: User = {
 
 console.log(user);
 
+
+interface Student {
+  id: number;
+  name: string;
+}
+
+
+const students: Student[] = [
+  {
+    id: 1,
+    name: "Himanshu",
+  },
+  {
+    id: 2,
+    name: "Rahul",
+  },
+];
+
+
+let numbers: number[] = [10, 20, 30, 40];
+
+console.log(numbers);
+
   return (
     <div>
       <h1>{name}</h1>
