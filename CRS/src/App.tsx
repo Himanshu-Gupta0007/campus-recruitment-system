@@ -48,6 +48,30 @@ let fruits: string[] = ["Apple", "Banana", "Mango"];
 
 console.log(fruits);
 
+enum Direction {
+  Up,
+  Down,
+  Left,
+  Right,
+}
+
+console.log(Direction.Up);    // 0
+console.log(Direction.Down);  // 1
+console.log(Direction.Left);  // 2
+console.log(Direction.Right); // 3
+
+
+
+enum StatusCode {
+  Success = 200,
+  NotFound = 404,
+  ServerError = 500,
+}
+
+console.log(StatusCode.Success);    // 200
+console.log(StatusCode.NotFound);   // 404
+console.log(StatusCode.ServerError); // 500
+
   return (
     <div>
       <h1>{name}</h1>
