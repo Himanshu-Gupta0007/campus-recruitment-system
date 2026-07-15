@@ -153,6 +153,30 @@ function print(value: string | number) {
 print("Himanshu");
 print(99);
 
+
+class Dog {
+  bark() {
+    console.log("Bark");
+  }
+}
+
+class Cat {
+  meow() {
+    console.log("Meow");
+  }
+}
+
+function animalSound(animal: Dog | Cat) {
+  if (animal instanceof Dog) {
+    animal.bark();
+  } else {
+    animal.meow();
+  }
+}
+
+animalSound(new Dog());
+animalSound(new Cat());
+
   return (
     <div>
       <h1>{name}</h1>
