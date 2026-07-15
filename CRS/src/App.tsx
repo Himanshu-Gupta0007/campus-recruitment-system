@@ -131,6 +131,16 @@ const sum: Add = (a, b) => a + b;
 
 console.log(sum(10, 20));
 
+  interface Login {
+  (username: string, password: string): boolean;
+}
+
+const login: Login = (user, pass) => {
+  return user === "admin" && pass === "1234";
+};
+
+console.log(login("admin", "1234"));
+
   return (
     <div>
       <h1>{name}</h1>
