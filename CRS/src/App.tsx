@@ -123,6 +123,14 @@ type Name = string;
 let firstName: Name = "Himanshu";
 console.log(firstName);
 
+
+
+type Add = (a: number, b: number) => number;
+
+const sum: Add = (a, b) => a + b;
+
+console.log(sum(10, 20));
+
   return (
     <div>
       <h1>{name}</h1>
