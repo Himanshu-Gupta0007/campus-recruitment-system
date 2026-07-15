@@ -118,6 +118,11 @@ let users: [number, string][] = [
 
 console.log(users);
 
+type Name = string;
+
+let firstName: Name = "Himanshu";
+console.log(firstName);
+
   return (
     <div>
       <h1>{name}</h1>
