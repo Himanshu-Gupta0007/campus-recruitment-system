@@ -141,6 +141,18 @@ const login: Login = (user, pass) => {
 
 console.log(login("admin", "1234"));
 
+
+function print(value: string | number) {
+  if (typeof value === "string") {
+    console.log(value.toUpperCase());
+  } else {
+    console.log(value.toFixed(2));
+  }
+}
+
+print("Himanshu");
+print(99);
+
   return (
     <div>
       <h1>{name}</h1>
