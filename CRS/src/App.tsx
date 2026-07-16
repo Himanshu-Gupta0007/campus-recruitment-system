@@ -215,6 +215,13 @@ let username = value as string;
 
 console.log(username.toUpperCase());
 
+
+let data: unknown = 50;
+
+if(typeof data==="number"){
+    console.log(data+100);
+}
+
   return (
     <div>
       <h1>{name}</h1>
