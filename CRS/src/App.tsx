@@ -222,6 +222,12 @@ if(typeof data==="number"){
     console.log(data+100);
 }
 
+let value1: string | number = "Hello";
+
+if (typeof value === "string") {
+  console.log(value.toUpperCase());
+}
+
   return (
     <div>
       <h1>{name}</h1>
