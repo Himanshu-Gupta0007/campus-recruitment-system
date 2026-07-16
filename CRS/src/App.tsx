@@ -209,6 +209,12 @@ const fish: Fish = {
 move(bird);
 move(fish); 
 
+let value: unknown = "Himanshu";
+
+let username = value as string;
+
+console.log(username.toUpperCase());
+
   return (
     <div>
       <h1>{name}</h1>
