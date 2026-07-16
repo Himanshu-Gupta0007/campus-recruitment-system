@@ -177,6 +177,38 @@ function animalSound(animal: Dog | Cat) {
 animalSound(new Dog());
 animalSound(new Cat());
 
+
+interface Bird {
+  fly(): void;
+}
+
+interface Fish {
+  swim(): void;
+}
+
+function move(animal: Bird | Fish) {
+  if ("fly" in animal) {
+    animal.fly();
+  } else {
+    animal.swim();
+  }
+}
+
+const bird: Bird = {
+  fly() {
+    console.log("Flying");
+  },
+};
+
+const fish: Fish = {
+  swim() {
+    console.log("Swimming");
+  },
+};
+
+move(bird);
+move(fish); 
+
   return (
     <div>
       <h1>{name}</h1>
