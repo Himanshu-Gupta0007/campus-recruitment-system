@@ -256,6 +256,18 @@ const box5: Box<boolean> = {
 
 console.log(box5.value);
 
+interface Pair<T, U> {
+  first: T;
+  second: U;
+}
+
+const pair: Pair<string, number> = {
+  first: "Age",
+  second: 22,
+};
+
+console.log(pair);
+
 
   return (
     <div>
