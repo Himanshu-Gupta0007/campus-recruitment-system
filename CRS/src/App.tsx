@@ -235,6 +235,16 @@ function addnumber <t>(a: number, b: number): number{
 
 
 addnumber(10,20);
+
+interface Box<T> {
+  value: T;
+}
+
+const box: Box<string> = {
+  value: "Hello TypeScript",
+};
+
+console.log(box.value);
   return (
     <div>
       <h1>{name}</h1>
