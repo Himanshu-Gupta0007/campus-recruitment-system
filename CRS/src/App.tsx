@@ -228,6 +228,13 @@ if (typeof value === "string") {
   console.log(value.toUpperCase());
 }
 
+
+function addnumber <t>(a: number, b: number): number{
+  return a+b;
+} 
+
+
+addnumber(10,20);
   return (
     <div>
       <h1>{name}</h1>
