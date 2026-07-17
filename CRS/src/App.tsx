@@ -240,11 +240,23 @@ interface Box<T> {
   value: T;
 }
 
-const box: Box<string> = {
+const box4: Box<string> = {
   value: "Hello TypeScript",
 };
 
-console.log(box.value);
+console.log(box4.value);
+
+interface Box<T> {
+  value: T;
+}
+
+const box5: Box<boolean> = {
+  value: true,
+};
+
+console.log(box5.value);
+
+
   return (
     <div>
       <h1>{name}</h1>
