@@ -18,6 +18,9 @@ const user: User = {
   city: "Delhi",
 };
 
+
+
+
 console.log(user);
 
 
