@@ -78,6 +78,21 @@ let numbers = [1, 2, 3, 4, 5];
 console.log(reverseArray(numbers)); // Output: [5, 4, 3, 2, 1]  
 
 
+// two nub or will be a two
 
 
+function twoSum(nums, target) {
+    let map = new Map(); 
+    for (let i = 0; i < nums.length; i++) {
+        let complement = target - nums[i];  
+            console.log(complement);
+        if (map.has(complement)) { 
+            return [map.get(complement), i]; 
+        }
+        map.set(nums[i], i);
+    }
+    return null;
+}
 
+
+twoSum([2, 7, 11, 15], 9); // Output: [0, 1]
