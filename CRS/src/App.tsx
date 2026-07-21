@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Navbar from "./Componts/Navbar";
 
 const App = () => {
   const name: string = "Himanshu";
@@ -281,7 +282,7 @@ console.log(pair);
       <button className="bg-red-600 hover:bg-red-700 text-white font-semibold px-6 py-3 rounded-lg transition duration-300 shadow-md hover:shadow-lg  " onClick={() => setCount((parseInt(count) - 1).toString())}>-</button>
 
 
-     
+     <Navbar />
 
     </div>
   );
