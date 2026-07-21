@@ -11,12 +11,14 @@ const App = () => {
   name: string;
   age: number;
   city: string;
+  number: number;
 }
 
 const user: User = {
   name: "Himanshu",
   age: 22,
   city: "Delhi",
+  number: 1234567890
 };
 
 
